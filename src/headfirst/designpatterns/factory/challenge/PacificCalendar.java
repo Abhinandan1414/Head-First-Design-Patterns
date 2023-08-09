@@ -15,6 +15,11 @@ public class PacificCalendar extends Calendar {
 
 		// make calendar from appointments
 		System.out.println("Making the calendar");
-		System.out.println("Printing all the appointments"+calenderAppointments.toString());
+		
+	}
+	public void print()
+	{
+		super.print();
+        System.out.println("Printing all the appointments"+calenderAppointments.toString());
 	}
 }
