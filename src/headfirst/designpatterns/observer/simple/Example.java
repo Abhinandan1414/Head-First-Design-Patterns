@@ -7,8 +7,11 @@ public class Example {
 	
 		SimpleObserver simpleObserver = new SimpleObserver(simpleSubject);
 
+		SimpleObserver simpleObserver2 = new SimpleObserver(simpleSubject);
+
 		simpleSubject.setValue(80);
 		
 		simpleSubject.removeObserver(simpleObserver);
+		simpleSubject.removeObserver(simpleObserver2);
 	}
 }
